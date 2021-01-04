@@ -1,7 +1,7 @@
 describe('venzel.spec', () => {
     beforeEach(() => {})
 
-    it('should be sum 1 and 2', async () => {
-        expect(1 + 2).toBe(3)
+    it('should be sum 2 and 2', async () => {
+        expect(2 + 2).toBe(3)
     })
 })
