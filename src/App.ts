@@ -2,7 +2,6 @@ import express, { Express } from 'express'
 
 class App {
     execute(): Express {
-        //
         const app = express()
 
         return app
