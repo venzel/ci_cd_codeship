@@ -10,6 +10,10 @@ class App {
             return res.json({ ok: true })
         })
 
+        app.get('/gamer', (req, res) => {
+            return res.json({ gamer: true })
+        })
+
         return app
     }
 }
