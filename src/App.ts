@@ -4,6 +4,12 @@ class App {
     execute(): Express {
         const app = express()
 
+        app.use(express.json())
+
+        app.get('/ok', (req, res) => {
+            return res.json({ ok: true })
+        })
+
         return app
     }
 }
