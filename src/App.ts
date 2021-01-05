@@ -14,6 +14,10 @@ class App {
             return res.json({ gamer: true })
         })
 
+        app.get('/sport', (req, res) => {
+            return res.json({ sport: 'radical' })
+        })
+
         return app
     }
 }
